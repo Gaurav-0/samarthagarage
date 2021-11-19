@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Fontawasome ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Samartha Garage</title>
+</head>
+
+<body>
+    <div class="navbar_container bg-gray-100">
+        <header class="bg-gray-100 body-font md:w-11/12 mx-auto">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+                <a class="flex title-font font-medium items-center text-gray-900 mb-5 md:mb-0" href="index.html">
+                    <img src="assets/images/Samartha-garage-LOGO.png" alt="" height="50px" width="50px" />
+                    <span class="ml-3 text-xl">Samartha&nbsp;Garage</span>
+                </a>
+                <nav class="md:mx-3 md:ml-auto flex flex-wrap items-center text-base justify-center md:mb-2 md:mt-3">
+                    <a class="mx-3 hover:text-gray-900 active" href="index.html">Home</a>
+                    <a class="mx-3 hover:text-gray-900" href="#services_card_container">Services</a>
+                    <a class="mx-3 hover:text-gray-900" href="#contact_container">Contact</a>
+                </nav>
+                <!-- <a href="contact.html">
+                    <button
+                        class="inline-flex items-center text-white bg-indigo-500 border-0 py-3 px-3 focus:outline-none hover:bg-indigo-500 focus:ring-2 focus:bg-indigo-800 focus:ring-opacity-50 rounded text-base mt-4 md:mt-0">
+                        Book&nbsp;Appointment
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </button>
+                </a> -->
+            </div>
+        </header>
+    </div>
+
+    <!-- hero container -->
+    <div class="hero_container" id="hero_container">
+        <section class="text-gray-600 body-font md:w-10/12 mx-auto">
+            <div class="container mx-auto flex px-5 py-12 md:py-24 md:flex-row flex-col items-center">
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                    <img class="hero_image_overlay object-cover object-center rounded" alt="hero"
+                        src="assets/images/engine_3.jpg">
+                </div>
+                <div
+                    class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <h1 class="hero_heading_one title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+                        Professional Bike Servicing
+                        &amp;
+                        <br class="hidden lg:inline-block">Bike Repair
+                    </h1>
+                    <p class="hero_para_one mb-3 leading-relaxed text-gray-400">
+                        Our goal is to make your life easier with the doorstep bike servicing so that you don't <br>
+                        have to waste your time worring about getting your bike outside for service.
+                        Get your bike serviced and repaired at your doorstep. <br>
+                        <span>Get exciting offer on your first Home Servicing</span>
+                    </p>
+                    <div class="flex justify-center">
+                        <a href="#contact_container">
+                            <button
+                                class="inline-flex items-center text-white bg-indigo-500 border-0 py-3 px-3 focus:outline-none hover:bg-indigo-500 focus:ring-2 focus:bg-indigo-800 focus:ring-opacity-50 rounded text-base mt-4 md:mt-0">
+                                Book&nbsp;Appointment
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-4 h-4 ml-1 mt-1" viewBox="0 0 24 24">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- services container -->
+    <div class="services_card_container" id="services_card_container">
+        <section class="text-gray-600 body-font md:w-11/12 mx-auto">
+            <div class="container px-5 py-12 mx-auto">
+                <div class="flex flex-wrap -m-4 items-center justify-center">
+                    <!-- card 1 -->
+                    <div class="p-4 w-full lg:w-1/3">
+                        <div class="h-full bg-gray-100 py-7 rounded-lg overflow-hidden text-center relative shadow-md">
+                            <h1 class="text-5xl text-indigo-600 mb-3"><i class="fas fa-home"></i></h1>
+                            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 mt-3">Home
+                                Servicing</h1>
+                            <p class="leading-relaxed mb-5 px-5 text-gray-900">Get your bike serviced at your doorstep,
+                                let us save your time</p>
+                            <a class="text-indigo-500 inline-flex items-center text-xl text-indigo-600">Learn More
+                                <svg class="w-4 h-4 ml-2 mt-1" viewBox="0 0 24 24" stroke="currentColor"
+                                    stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+                    <div class="p-4 w-full lg:w-1/3">
+                        <div class="h-full bg-gray-100 py-7 rounded-lg overflow-hidden text-center relative shadow-md">
+                            <h1 class="text-5xl text-indigo-600 mb-3"><i class="fas fa-tags"></i></h1>
+                            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 mt-3">Best Offers
+                            </h1>
+                            <p class="leading-relaxed mb-5 px-5 text-gray-900">Get the best offers in the city on bike
+                                servicing and reparing</p>
+                            <a class="text-indigo-500 inline-flex items-center text-xl text-indigo-600">Learn More
+                                <svg class="w-4 h-4 ml-2 mt-1" viewBox="0 0 24 24" stroke="currentColor"
+                                    stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+                    <div class="p-4 w-full lg:w-1/3">
+                        <div class="h-full bg-gray-100 py-7 rounded-lg overflow-hidden text-center relative shadow-md">
+                            <h1 class="text-5xl text-indigo-600 mb-3"><i class="fas fa-truck-loading"></i></h1>
+                            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 mt-3">Pickup &amp;
+                                Drop</h1>
+                            <p class="leading-relaxed mb-5 px-5 text-gray-900">Free pickup and drop for critical bike
+                                servicing and repairs</p>
+                            <a class="text-indigo-500 inline-flex items-center text-xl text-indigo-600">Learn More
+                                <svg class="w-4 h-4 ml-2 mt-1" viewBox="0 0 24 24" stroke="currentColor"
+                                    stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- contact bar container -->
+    <div class="contact_bar_container" style="margin-top: -15px;">
+        <section class="relative md:w-11/12 mx-auto bg-gray-100">
+            <div class="container px-5 py-7 mx-auto flex sm:flex-nowrap flex-wrap">
+                
+            </div>
+        </section>
+    </div>
+
+    <!-- contact container -->
+    <div class="contact_container" id="contact_container">
+        <section class="text-gray-600 body-font relative md:w-11/12 mx-auto">
+            <div class="container px-5 py-7 mx-auto flex sm:flex-nowrap flex-wrap">
+                <div
+                    class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                    <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map"
+                        marginheight="0" marginwidth="0" scrolling="no"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.8380740349753!2d73.84567981489161!3d18.44565978745268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDI2JzQ0LjQiTiA3M8KwNTAnNTIuMyJF!5e0!3m2!1sen!2sin!4v1636470021875!5m2!1sen!2sin"
+                        style="filter: grayscale(0) contrast(1.2) opacity(0.5);"></iframe>
+                    <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+                        <div class="lg:w-1/2 px-6">
+                            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+                            <p class="mt-1 font-bold">Telco Colony L-2, Jambhulwadi Road, Dattanagar, Katraj, Pune - 411046</p>
+                        </div>
+                        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+                            <a class="text-indigo-500 leading-relaxed font-bold">samarthagarage@gmail.com</a>
+                            <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+                            <p class="leading-relaxed font-bold">+91 7875332241</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 bg-gray-100 px-5 shadow-lg rounded-lg">
+                    <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">CONTACT</h2>
+                    <div class="relative mb-4">
+                        <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                        <input type="text" id="name" name="name"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <div class="relative mb-4">
+                        <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                        <input type="email" id="email" name="email"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <div class="relative mb-4">
+                        <label for="phone" class="leading-7 text-sm text-gray-600">Phone</label>
+                        <input type="tel" id="phone" name="phone"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    </div>
+                    <div class="relative mb-4">
+                        <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                        <textarea id="message" name="message"
+                            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                    </div>
+                    <button
+                        class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+                    <p class="text-xs text-gray-500 mt-3">We will contact you within 24 hours</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- footer container -->
+    <div class="footer_container">
+        <footer class="text-gray-600 body-font md:w-11/12 mx-auto border-t-2 border-fuchsia-600">
+            <div class="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <img src="assets/images/Samartha-garage-LOGO.png" alt="" height="50px" width="50px" />
+                    <span class="ml-3 text-xl">Samartha&nbsp;Garage</span>
+                </a>
+                <p
+                    class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 text-center">
+                    © 2021 Samartha Garage
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                    <a class="text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

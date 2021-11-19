@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Encode+Sans:wght@300;400;500&family=Josefin+Sans:wght@300;400&family=Kaushan+Script&family=Righteous&display=swap');
+/* 
+    font-family: 'Alata', sans-serif;
+    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Righteous', cursive; 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav a {
+    cursor: pointer;
+}
+
+nav .active {
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.hero_container {
+    position: relative;
+    background-image: url('../images/engine_3_dark.jpg'), linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hero_container .hero_heading_one {
+    font-family: 'Alata', sans-serif;
+}
+
+.hero_container .hero_para_one {
+    font-family: 'Alata', sans-serif;
+}
+
+.hero_container .hero_para_one span {
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.hero_image_overlay {
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+    .hero_container{
+        padding: 10px 0px;
+    }
+}
+
+
+/* services card container */
+.services_card_container {
+    font-family: 'Alata', sans-serif;
+    margin-top: -90px;
+}
+
+.services_card_container a {
+    cursor: pointer;
+    transition: linear 1s ease-in-out;
+}
+
+.services_card_container a:hover {
+    font-size: 23px;
+}
+
+@media screen and (max-width: 768px) {
+    .services_card_container {
+        margin-top: 0px;
+    }
+}
+
+
+
+/* footer container */
+.footer_container span a {
+    cursor: pointer;
+}
